@@ -47,7 +47,7 @@ const Timeline = () => {
                 />
 
                 <div className="flex flex-wrap gap-4 mb-3">
-                  <div className="flex items-center text-red-400">
+                  <div className="flex items-center text-red-500">
                     <Calendar className="mr-2 h-4 w-4" />
                     <span className="font-medium">{milestone.year}</span>
                   </div>
@@ -59,7 +59,7 @@ const Timeline = () => {
 
                 <h3 className="text-xl font-semibold mb-2">{milestone.title}</h3>
                 
-                <div className="flex items-center mb-3 text-red-400">
+                <div className="flex items-center mb-3 text-red-500">
                   <Medal className="mr-2 h-4 w-4" />
                   <span className="font-medium">{milestone.achievement}</span>
                 </div>

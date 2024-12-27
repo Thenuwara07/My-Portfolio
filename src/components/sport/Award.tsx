@@ -11,7 +11,7 @@ const AWARDS = [
 
 const Awards = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-14">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
@@ -32,7 +32,7 @@ const Awards = () => {
           >
             <div className="flex items-center mb-4">
               <Trophy className="mr-3 h-6 w-6 text-red-500" />
-              <h3 className="text-xl font-semibold text-red-300">{award.title}</h3>
+              <h3 className="text-xl font-semibold text-red-500">{award.title}</h3>
             </div>
             <div className="flex items-center text-neutral-400 mb-2">
               <span className="text-sm font-medium">{award.year}</span>

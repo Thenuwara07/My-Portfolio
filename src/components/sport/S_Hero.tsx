@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-      <div className="w-full lg:w-1/2 lg:p-8 h-auto">
+      <div className="w-full lg:w-1/2 lg:p-8 lg:pt-2 h-auto">
           <div className="flex items-center justify-center opacity-70 p-[12%]">
             <motion.img initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1}} transition={{duration: 1, delay: 1}} src={profilePic} alt="profile" className="rounded-3xl" />
           </div>
@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl lg:text-8xl font-thin tracking-tight lg:mt-16"
+              className="pb-6 text-6xl lg:text-7xl font-thin tracking-tight lg:mt-10"
             >
               Pramukha Thenuwara
             </motion.h1>
