@@ -115,42 +115,75 @@ export const LEARNING_EXPERIENCES = [
   
 ];
 
+// export const SPORTS_JOURNEY = [
+//   {
+//     year: "2018",
+//     title: "National Championship",
+//     achievement: "Gold Medal in 100m Sprint",
+//     description: "Set a new personal record and secured first place in the national championship.",
+//     location: "National Stadium, Mumbai"
+//   },
+//   {
+//     year: "2019",
+//     title: "State Team Selection",
+//     achievement: "Selected as Team Captain",
+//     description: "Led the state team in multiple tournaments and achieved collective success.",
+//     location: "State Sports Academy"
+//   },
+//   {
+//     year: "2020",
+//     title: "International Debut",
+//     achievement: "Silver Medal in Asian Championship",
+//     description: "Represented the country at international level and secured podium finish.",
+//     location: "Bangkok, Thailand"
+//   },
+//   {
+//     year: "2021",
+//     title: "Professional League",
+//     achievement: "Most Valuable Player",
+//     description: "Named MVP in the professional league season with outstanding performance.",
+//     location: "National Circuit"
+//   },
+//   {
+//     year: "2022",
+//     title: "Commonwealth Games",
+//     achievement: "Bronze Medal",
+//     description: "Secured bronze medal in individual event at Commonwealth Games.",
+//     location: "Birmingham, UK"
+//   }
+// ] as const;
+
 export const SPORTS_JOURNEY = [
   {
-    year: "2018",
-    title: "National Championship",
-    achievement: "Gold Medal in 100m Sprint",
-    description: "Set a new personal record and secured first place in the national championship.",
-    location: "National Stadium, Mumbai"
+    year: "2015",
+    location: "Hometown",
+    title: "Started Basketball",
+    achievement: "Participated in local tournaments",
+    description: "Began playing basketball at the community center and quickly developed a passion for the sport."
   },
   {
-    year: "2019",
-    title: "State Team Selection",
-    achievement: "Selected as Team Captain",
-    description: "Led the state team in multiple tournaments and achieved collective success.",
-    location: "State Sports Academy"
+    year: "2018",
+    location: "Regional Level",
+    title: "Regional Championship",
+    achievement: "Runner-up",
+    description: "Led the team to the finals in the regional basketball championship."
   },
+  // Add your two new milestones here
   {
     year: "2020",
-    title: "International Debut",
-    achievement: "Silver Medal in Asian Championship",
-    description: "Represented the country at international level and secured podium finish.",
-    location: "Bangkok, Thailand"
+    location: "University Level",
+    title: "Joined University Team",
+    achievement: "Top Scorer",
+    description: "Represented the university in multiple tournaments and emerged as the leading scorer."
   },
   {
-    year: "2021",
-    title: "Professional League",
-    achievement: "Most Valuable Player",
-    description: "Named MVP in the professional league season with outstanding performance.",
-    location: "National Circuit"
-  },
-  {
-    year: "2022",
-    title: "Commonwealth Games",
-    achievement: "Bronze Medal",
-    description: "Secured bronze medal in individual event at Commonwealth Games.",
-    location: "Birmingham, UK"
+    year: "2023",
+    location: "National Division 'A'",
+    title: "Division 'A' League",
+    achievement: "Team Captain",
+    description: "Guided the team to the semi-finals in the national league while honing leadership and strategy skills."
   }
-] as const;
+];
+
 
 

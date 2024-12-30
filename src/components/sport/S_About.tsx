@@ -28,7 +28,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -150 }}
           transition={{ duration: 1}}
-          className="w-full lg:w-1/2"
+          className="w-full lg:w-3/5"
         >
           <div className="flex justify-center lg:justify-end lg:ml-16">
             <div>
@@ -40,7 +40,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 150 }}
           transition={{ duration: 1 }}
-          className="w-full lg:w-1/2 lg:p-8"
+          className="w-full lg:w-1\2/5 lg:p-8"
         >
           <div className="flex items-center justify-center w-[80%] lg:ml-16 mx-auto">
             <img className="rounded-2xl" src={aboutImg} alt="about" />
