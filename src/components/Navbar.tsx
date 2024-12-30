@@ -39,7 +39,7 @@ const Navbar = ({ onSwitchChange, isSwitched }: NavbarProps) => {
       <div className="flex flex-shrink-0 items-center justify-center">
         {isSwitched && (
           <>
-            <a href="https://www.pramukathenuwara.me/">
+            <a href="https://www.pramukathenuwara.me/" target="_blank">
               <motion.img
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -53,7 +53,7 @@ const Navbar = ({ onSwitchChange, isSwitched }: NavbarProps) => {
         )}
         {!isSwitched && (
           <>
-          <a href="https://www.pramukathenuwara.me/">
+          <a href="https://www.pramukathenuwara.me/" target="_blank">
             <motion.img
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -94,9 +94,9 @@ const Navbar = ({ onSwitchChange, isSwitched }: NavbarProps) => {
               transition={{ duration: 0.5 }}
               className="flex items-center justify-center gap-4 text-3xl "
             >
-              <a href="https://www.instagram.com/pramuka_7_/"><FaInstagram /></a>
+              <a href="https://www.instagram.com/pramuka_7_/" target="_blank"><FaInstagram /></a>
             </motion.div>
-            <a href="https://play.fiba3x3.com/players/cca11db6-e1a8-4fdc-9468-27943a12f7e4/media "><motion.img
+            <a href="https://play.fiba3x3.com/players/cca11db6-e1a8-4fdc-9468-27943a12f7e4/media " target="_blank"><motion.img
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.5 }}
@@ -114,9 +114,9 @@ const Navbar = ({ onSwitchChange, isSwitched }: NavbarProps) => {
               transition={{ duration: 0.5 }}
               className="flex items-center justify-center gap-4 text-3xl"
             >
-              <a href="https://www.instagram.com/pramuka_7_/"><FaInstagram /></a>
-              <a href="https://www.linkedin.com/in/pramukha-thenuwara-662951243/"><FaLinkedin /></a>
-              <a href="https://github.com/Thenuwara07"><FaGithub /></a>
+              <a href="https://www.instagram.com/pramuka_7_/" target="_blank"><FaInstagram /></a>
+              <a href="https://www.linkedin.com/in/pramukha-thenuwara-662951243/" target="_blank"><FaLinkedin /></a>
+              <a href="https://github.com/Thenuwara07" target="_blank"><FaGithub /></a>
             </motion.div>
           </>
         )}
