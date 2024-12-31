@@ -36,7 +36,7 @@ import Hero from "./components/Hero";
 import S_Hero from "./components/sport/S_Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Timeline from "./components/sport/Timeline";
