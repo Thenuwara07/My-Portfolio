@@ -40,7 +40,8 @@ export const CONTACT: Contact;
 
 export const S_HERO_CONTENT: string;
 export const S_ABOUT_TEXT: string;
-// export const ABOUT_TEXT2: string;
+
+export const SPECIAL_AWARDS: string;
 // export const EXPERIENCES: Experience[];
 // export const LEARNING_EXPERIENCES: Learning[]: 
 // export const PROJECTS: Project[];

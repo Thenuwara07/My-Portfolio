@@ -41,7 +41,8 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Timeline from "./components/sport/Timeline";
 import S_About from "./components/sport/S_About";
-import  Award  from "./components/sport/Award";
+import Award from "./components/sport/Award";
+import Leadership from "./components/sport/Leadership";
 
 function App() {
   const [isSportMode, setIsSportMode] = useState(false);
@@ -69,6 +70,7 @@ function App() {
               <S_Hero />
               <S_About />
               <Award />
+              <Leadership />
               <Timeline />
               <Contact />
             </>
@@ -79,7 +81,7 @@ function App() {
               <About />
               <Technologies />
               <Project />
-              <Experience />
+              {/* <Experience /> */}
               <Contact />
             </>
           )}

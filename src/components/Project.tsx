@@ -8,7 +8,7 @@ const Project = () => {
       <div>
         {PROJECTS.map((project, index) => (
           <motion.div whileInView={{ opacity: 1, x: 0}} initial={{ opacity: 0, x: -100}} transition={{duration:0.5, delay: 0.5}} key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+            <div className="w-full lg:w-1/4 flex justify-center items-center">
               <img src={project.image} width={150} height={150} alt={project.title} className="mb-6 rounded" />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">

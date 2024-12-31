@@ -1,5 +1,3 @@
-"use client";
-
 import { SPORTS_JOURNEY } from "../../constants";
 import { motion } from "framer-motion";
 import { Medal, MapPin, Calendar } from "lucide-react";
@@ -51,7 +49,7 @@ const Timeline = () => {
               />
 
               <div className="flex flex-wrap gap-4 mb-3">
-                <div className="flex items-center text-red-400">
+                <div className="flex items-center text-red-500">
                   <Calendar className="mr-2 h-4 w-4" />
                   <span className="font-medium">{milestone.year}</span>
                 </div>
