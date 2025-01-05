@@ -71,7 +71,7 @@ function App() {
               <S_About />
               <Award />
               <Leadership />
-              <Timeline />
+              {/* <Timeline /> */}
               <Contact />
             </>
           )}
