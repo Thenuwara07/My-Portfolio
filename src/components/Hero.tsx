@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/profile.png";
 import { motion } from "framer-motion";
-import cvFile from '../assets/Pramuka Thenuwara.pdf';
+import cvFile from '../assets/Pramuka_Thenuwara_SE.pdf';
 
 const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
