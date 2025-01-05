@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/profile.png";
 import { motion } from "framer-motion";
+import cvFile from '../assets/Pramuka Thenuwara.pdf';
 
 const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
@@ -48,7 +49,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="../assets/Pramuka_Thenuwara.pdf"
+              href={cvFile}
               download
               variants={container(1.5)}
               initial="hidden"
