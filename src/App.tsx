@@ -7,7 +7,7 @@ import Technologies from "./components/Technologies";
 // import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
-// import Timeline from "./components/sport/Timeline";
+import Timeline from "./components/sport/Timeline";
 import S_About from "./components/sport/S_About";
 import Award from "./components/sport/Award";
 import Leadership from "./components/sport/Leadership";
@@ -39,7 +39,7 @@ function App() {
               <S_About />
               <Award />
               <Leadership />
-              {/* <Timeline /> */}
+              <Timeline />
               <Contact />
             </>
           )}

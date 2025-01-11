@@ -66,7 +66,7 @@ const Timeline = () => {
                 <span className="font-medium">{milestone.achievement}</span>
               </div>
 
-              <p className="text-neutral-400">{milestone.description}</p>
+              {/* <p className="text-neutral-400">{milestone.description}</p> */}
 
               <motion.div
                 whileInView={{ opacity: 1 }}

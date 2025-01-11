@@ -155,34 +155,104 @@ export const LEARNING_EXPERIENCES = [
 
 export const SPORTS_JOURNEY = [
   {
-    year: "2015",
-    location: "Hometown",
-    title: "Started Basketball",
-    achievement: "Participated in local tournaments",
-    description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+    year: "2023",
+    location: "Sugathadasa Indoor Stadium",
+    title: "Junior Premier League Level-2 2022 U23",
+    achievement: "Runners-up",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2022",
+    location: "Dharmashoka College Basketball Court",
+    title: "National Sports Festival Inter District Competition",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2022",
+    location: "Miani Basketball Court, Baticaloa",
+    title: "Senior National Basketball Tounerment Level-2 2021",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2019",
+    location: "Dharmashoka College Basketball Court",
+    title: "Southern Province School Games U20",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2019",
+    location: "Richmond College Basketball Court",
+    title: "Southern Province Schools' 3X3 Championship U20",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
   },
   {
     year: "2018",
-    location: "Regional Level",
-    title: "Regional Championship",
-    achievement: "Runner-up",
-    description: "Led the team to the finals in the regional basketball championship."
-  },
-  // Add your two new milestones here
-  {
-    year: "2020",
-    location: "University Level",
-    title: "Joined University Team",
-    achievement: "Top Scorer",
-    description: "Represented the university in multiple tournaments and emerged as the leading scorer."
+    location: "Royal College Basketball Court",
+    title: "Sri Lanka Schools' 'C'- Division Competition U19",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
   },
   {
-    year: "2023",
-    location: "National Division 'A'",
-    title: "Division 'A' League",
-    achievement: "Team Captain",
-    description: "Guided the team to the semi-finals in the national league while honing leadership and strategy skills."
-  }
+    year: "2018",
+    location: "Dharmashoka College Basketball Court",
+    title: "Southern Province School Games U20",
+    achievement: "Runners-up",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2016",
+    location: "Dharmashoka College Basketball Court",
+    title: "Southern Province School Games U19",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2015",
+    // location: "Dharmashoka College Basketball Court",
+    title: "Sri Lanka Schools' Zonal Level Competition U17",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2014",
+    location: "Dharmashoka College Basketball Court",
+    title: "Southern Province School Games U19",
+    achievement: "2nd Runners-up",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2014",
+    // location: "Dharmashoka College Basketball Court",
+    title: "Sri Lanka Schools' Zonal Level Competition U15",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2014",
+    // location: "Dharmashoka College Basketball Court",
+    title: "Sri Lanka Schools' Zonal Level Competition",
+    achievement: "2nd Runners-up",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2014",
+    location: "Kularathne College Basketball Court",
+    title: "Sports Festival of The Galle District U15",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+  {
+    year: "2013",
+    location: "Kularathne College Basketball Court",
+    title: "Sports Festival of The Galle District U16",
+    achievement: "Champions",
+    // description: "Began playing basketball at the community center and quickly developed a passion for the sport."
+  },
+
 ];
 
 export const AWARDS = [
@@ -192,7 +262,14 @@ export const AWARDS = [
     title: "University of Colombo Sports Colors",
     tournament: "Inter-University Championship",
     description:
-      "Awarded for outstanding contributions to the University of Colombo basketball team.",
+      "Awarded for outstanding contributions to the University of Colombo Basketball Team.",
+  },
+  {
+    year: "2015, 2016, 2018",
+    title: "Kularathna College Sports Colors",
+    tournament: "Schools' Basketball Championships",
+    description:
+      "Awarded for outstanding contributions to the G/P. De S. Kularathna College Basketball Team.",
   },
 ];
 
@@ -210,6 +287,13 @@ export const SPECIAL_AWARDS = [
     tournament: "Inter-University Championship",
     description:
       "Recognized for outstanding basketball performance during the Inter-University Championship Tournaments.",
+  },
+  {
+    year: "2022",
+    title: "Best Player Award",
+    tournament: "Junior Premier League",
+    description:
+      "Received the Best Player Award in the 2022 Junior Premier League for outstanding performance and leadership, helping the team secure the Runners-Up position in the tournament.",
   },
 ];
 
